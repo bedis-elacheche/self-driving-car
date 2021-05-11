@@ -1,0 +1,23 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+.cache
+
+# Optional REPL history
+.node_repl_history
+.DS_Store
+
+# Generated files
+dist/
+report/
+
+# NPM lock file (as we are using yarn)
+package-lock.json

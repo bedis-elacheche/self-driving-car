@@ -1,0 +1,32 @@
+{
+  "name": "self-driving-car",
+  "version": "1.0.0",
+  "description": "A javascript simulation in which cars learn to navigate themselves through a track",
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./src --fix",
+    "prettier": "prettier ./src --write",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "parcel-bundler": "^1.6.1",
+    "prettier": "2.3.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "dependencies": {
+    "mathjs": "^9.3.2"
+  },
+  "browserslist": [
+    "since 2017-06"
+  ]
+}
